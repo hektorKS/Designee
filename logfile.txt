@@ -1,0 +1,23 @@
+Strategy design pattern tests
+-> counting taxes in different countries using common interface
+Tax in Poland: 23.0
+Tax in France: 20.0
+Tax in Germany: 30.0
+Tax in United Kingdom: 20.0
+-----------------------------------------------------------------------------------------------
+Prototype design pattern tests
+-> making copy and editing some fields
+TIME SUMMARY: 
+Clone time: 13891ns 
+Copy time: 13647ns 
+OBJECTS SUMMARY:
+
+book1 == book1Clone: false
+book1 == book1Copy: false
+book2 == book2Clone: false
+Tytuł: Java book 1, temat: programming
+Tytuł: Java book 2, temat: programming
+Tytuł: Python book 1, temat: programming
+Tytuł: Python book 2, temat: programming
+-----------------------------------------------------------------------------------------------
+

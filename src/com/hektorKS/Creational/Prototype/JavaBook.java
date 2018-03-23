@@ -12,6 +12,6 @@ public class JavaBook extends Book {
     }
 
     public Object copy(){
-        return new JavaBook(super.getTitle(), super.getTopic());
+        return new JavaBook(new String(super.getTitle()), new String(super.getTopic()));
     }
 }

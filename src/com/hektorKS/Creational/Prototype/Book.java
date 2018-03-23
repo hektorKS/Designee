@@ -58,11 +58,13 @@ package com.hektorKS.Creational.Prototype;
  * '---> |  7  |
  * '-----'-----
  *
- * Wzorzec Prototype można stosować w sytuacjach, gdy tworzona jest duża liczba obiektów tego samego typu.
- * Stosuje się go głównie w celach optymalizacji, gdyż klonowanie obiektu jest szybsze niż jego stworzenie.
+ * Prototype design pattern can be used when there is need to create many objects having the same type.
+ * Main purpose of this design pattern is optimization, because cloning BIG object is much faster then creation
+ * using ''new'' operator.
  *
- * Cza wychodzi porównywalny
- * Wyniki mogą być niemiarodajne, ponieważ są to bardzo małe obiekty???
+ * Even in my mini test there is no doubt that cloning is bit faster(not much but still always faster).
+ * Objects are really small, but what if we had huge object?
+ * That would do the difference, especially if many of such objects was needed.
  *
  */
 public class Book implements Cloneable {

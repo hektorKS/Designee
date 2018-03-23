@@ -25,6 +25,12 @@ public class PrototypeTester {
         log.append(book1 == book1Clone);
         log.append("\nbook1 == book1Copy: ");
         log.append(book1 == book1Copy);
+
+        log.append("\nbook1.getTitle() == book1Clone.getTitle(): ");
+        log.append(book1.getTitle() == book1Clone.getTitle());
+        log.append("\nbook1.getTitle() == book1Copy.getTitle(): ");
+        log.append(book1.getTitle() == book1Copy.getTitle());
+
         log.append("\nbook2 == book2Clone: ");
         log.append(book2 == book2Clone);
 

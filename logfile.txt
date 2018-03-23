@@ -8,12 +8,14 @@ Tax in United Kingdom: 20.0
 Prototype design pattern tests
 -> making copy and editing some fields
 TIME SUMMARY: 
-Clone time: 13891ns 
-Copy time: 13647ns 
+Clone time: 27059ns 
+Copy time: 35923ns 
 OBJECTS SUMMARY:
 
 book1 == book1Clone: false
 book1 == book1Copy: false
+book1.getTitle() == book1Clone.getTitle(): false
+book1.getTitle() == book1Copy.getTitle(): false
 book2 == book2Clone: false
 Tytuł: Java book 1, temat: programming
 Tytuł: Java book 2, temat: programming

@@ -29,7 +29,7 @@ public enum Logger {
 
     private String log;
 
-    public void AddToLog(String data){
+    public void addToLog(String data){
         if(log == null){
             log = data;
         }

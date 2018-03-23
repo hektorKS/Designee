@@ -1,6 +1,7 @@
 package com.hektorKS;
 
 import com.hektorKS.Behavioral.Strategy.StrategyTester;
+import com.hektorKS.Creational.AbstractFactory.AbstractFactoryTester;
 import com.hektorKS.Creational.Prototype.PrototypeTester;
 import com.hektorKS.Creational.Singleton.Logger;
 
@@ -17,6 +18,12 @@ public class Main {
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
+
+        AbstractFactoryTester abstractFactory = new AbstractFactoryTester();
+        abstractFactory.test();
+
+
+
 
 
         Logger.INSTANCE.saveLog();

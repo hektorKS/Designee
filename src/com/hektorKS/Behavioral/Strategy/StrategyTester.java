@@ -13,12 +13,15 @@ import com.hektorKS.Creational.Singleton.Logger;
 public class StrategyTester {
 
     private Tax tax;
+    private StringBuilder log;
 
-    public void test() {
-        StringBuilder log = new StringBuilder();
-
+    public StrategyTester() {
+        this.log = new StringBuilder();
         log.append("Strategy design pattern tests\n");
         log.append("-> counting taxes in different countries using common interface\n");
+    }
+
+    public void test() {
 
         this.tax = new TaxPL();
         log.append("Tax in Poland: ");
@@ -41,7 +44,7 @@ public class StrategyTester {
         log.append("\n");
         log.append("-----------------------------------------------------------------------------------------------\n");
 
-        Logger.INSTANCE.AddToLog(log.toString());
+        Logger.INSTANCE.addToLog(log.toString());
     }
 
 }

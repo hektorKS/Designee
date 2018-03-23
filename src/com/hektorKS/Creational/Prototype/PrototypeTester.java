@@ -9,16 +9,15 @@ public class PrototypeTester {
     private JavaBook book1Copy;
     private PythonBook book2;
     private PythonBook book2Clone;
-    private PythonBook book2Copy;
     private StringBuilder log;
 
     public PrototypeTester() {
         this.log = new StringBuilder();
         log.append("Prototype design pattern tests\n");
-        log.append("-> making copy and editing some fields\n");
+        log.append("-> copy vs clone and correctness checking\n");
     }
 
-    private StringBuilder addCloneSummary(){
+    private void addCloneSummary(){
 
         log.append("OBJECTS SUMMARY:\n");
         log.append("\nbook1 == book1Clone: ");
@@ -60,7 +59,6 @@ public class PrototypeTester {
 
         log.append("-----------------------------------------------------------------------------------------------\n");
 
-        return log;
     }
 
     public void test() throws CloneNotSupportedException {
@@ -94,7 +92,7 @@ public class PrototypeTester {
         book2Clone.setTitle("Python book 2");
         addCloneSummary();
 
-        Logger.INSTANCE.AddToLog(log.toString());
+        Logger.INSTANCE.addToLog(log.toString());
 
     }
 }

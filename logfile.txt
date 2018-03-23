@@ -6,10 +6,10 @@ Tax in Germany: 30.0
 Tax in United Kingdom: 20.0
 -----------------------------------------------------------------------------------------------
 Prototype design pattern tests
--> making copy and editing some fields
+-> copy vs clone and correctness checking
 TIME SUMMARY: 
-Clone time: 27059ns 
-Copy time: 35923ns 
+Clone time: 40588ns 
+Copy time: 53185ns 
 OBJECTS SUMMARY:
 
 book1 == book1Clone: false
@@ -21,5 +21,10 @@ Tytuł: Java book 1, temat: programming
 Tytuł: Java book 2, temat: programming
 Tytuł: Python book 1, temat: programming
 Tytuł: Python book 2, temat: programming
+-----------------------------------------------------------------------------------------------
+Abstract Factory design pattern tests
+
+Apple Picker picks Apple in September
+Orange Picker picks Orange in December
 -----------------------------------------------------------------------------------------------
 

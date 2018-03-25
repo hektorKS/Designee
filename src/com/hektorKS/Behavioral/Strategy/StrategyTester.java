@@ -9,6 +9,7 @@ import com.hektorKS.Creational.Singleton.Logger;
  * solved by different strategies and that possess a clearly defined interface for such cases.
  * Each strategy is perfectly valid on its own with some of the strategies being preferable in certain situations
  * that allow the application to switch between them during runtime.
+ *
  */
 public class StrategyTester {
 

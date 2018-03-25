@@ -8,8 +8,8 @@ Tax in United Kingdom: 20.0
 Prototype design pattern tests
 -> copy vs clone and correctness checking
 TIME SUMMARY: 
-Clone time: 40588ns 
-Copy time: 53185ns 
+Clone time: 33124ns 
+Copy time: 37789ns 
 OBJECTS SUMMARY:
 
 book1 == book1Clone: false
@@ -26,5 +26,16 @@ Abstract Factory design pattern tests
 
 Apple Picker picks Apple in September
 Orange Picker picks Orange in December
+-----------------------------------------------------------------------------------------------
+Dependency Injection design pattern tests
+This design pattern is not in GOF book
+
+Session's name: SuperSession
+New session's name: NewSuperSession
+-----------------------------------------------------------------------------------------------
+Factory method design pattern tests
+
+Pizza1: Hawaiian Pizza
+Pizza2: Deluxe Pizza
 -----------------------------------------------------------------------------------------------
 

@@ -103,27 +103,27 @@ public class PrototypeTester {
         log.append("\nbook2 == book2Clone: ");
         log.append(book2 == book2Clone);
 
-        log.append("\nTytuł: ");
+        log.append("\nTitle: ");
         log.append(book1.getTitle());
-        log.append(", temat: ");
+        log.append(", theme: ");
         log.append(book1.getTopic());
         log.append("\n");
 
-        log.append("Tytuł: ");
+        log.append("Title: ");
         log.append(book1Clone.getTitle());
-        log.append(", temat: ");
+        log.append(", theme: ");
         log.append(book1Clone.getTopic());
         log.append("\n");
 
-        log.append("Tytuł: ");
+        log.append("Title: ");
         log.append(book2.getTitle());
-        log.append(", temat: ");
+        log.append(", theme: ");
         log.append(book2.getTopic());
         log.append("\n");
 
-        log.append("Tytuł: ");
+        log.append("Title: ");
         log.append(book2Clone.getTitle());
-        log.append(", temat: ");
+        log.append(", theme: ");
         log.append(book2Clone.getTopic());
         log.append("\n");
 

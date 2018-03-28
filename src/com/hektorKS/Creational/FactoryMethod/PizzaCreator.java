@@ -2,7 +2,7 @@ package com.hektorKS.Creational.FactoryMethod;
 
 public class PizzaCreator implements Creator {
 
-//    This can be also implemented in different way switch is makes it bit easier.
+//    This can be also implemented in different way switch just makes it bit easier.
     @Override
     public Pizza create(String type) throws NoPizzaException {
         switch (type){

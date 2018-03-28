@@ -7,6 +7,7 @@ import com.hektorKS.Creational.FactoryMethod.FactoryMethodTester;
 import com.hektorKS.Creational.FactoryMethod.NoPizzaException;
 import com.hektorKS.Creational.Prototype.PrototypeTester;
 import com.hektorKS.Creational.Singleton.Logger;
+import com.hektorKS.Structural.Adapter.AdapterTester;
 
 public class Main {
 
@@ -32,9 +33,11 @@ public class Main {
             FactoryMethodTester factoryMethod = new FactoryMethodTester();
             factoryMethod.test();
         } catch (NoPizzaException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
 
+        AdapterTester adapterTester = new AdapterTester();
+        adapterTester.test();
 
         Logger.INSTANCE.saveLog();
     }

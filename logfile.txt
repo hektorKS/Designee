@@ -8,8 +8,8 @@ Tax in United Kingdom: 20.0
 Prototype design pattern tests
 -> copy vs clone and correctness checking
 TIME SUMMARY: 
-Clone time: 33124ns 
-Copy time: 37789ns 
+Clone time: 26126ns 
+Copy time: 32190ns 
 OBJECTS SUMMARY:
 
 book1 == book1Clone: false
@@ -17,10 +17,10 @@ book1 == book1Copy: false
 book1.getTitle() == book1Clone.getTitle(): false
 book1.getTitle() == book1Copy.getTitle(): false
 book2 == book2Clone: false
-Tytuł: Java book 1, temat: programming
-Tytuł: Java book 2, temat: programming
-Tytuł: Python book 1, temat: programming
-Tytuł: Python book 2, temat: programming
+Title: Java book 1, theme: programming
+Title: Java book 2, theme: programming
+Title: Python book 1, theme: programming
+Title: Python book 2, theme: programming
 -----------------------------------------------------------------------------------------------
 Abstract Factory design pattern tests
 
@@ -37,5 +37,10 @@ Factory method design pattern tests
 
 Pizza1: Hawaiian Pizza
 Pizza2: Deluxe Pizza
+-----------------------------------------------------------------------------------------------
+Adapter design pattern tests
+
+getName() method called
+New Super Library
 -----------------------------------------------------------------------------------------------
 

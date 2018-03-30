@@ -1,46 +1,84 @@
-Strategy design pattern tests
--> counting taxes in different countries using common interface
-Tax in Poland: 23.0
-Tax in France: 20.0
-Tax in Germany: 30.0
-Tax in United Kingdom: 20.0
------------------------------------------------------------------------------------------------
-Prototype design pattern tests
--> copy vs clone and correctness checking
-TIME SUMMARY: 
-Clone time: 26126ns 
-Copy time: 32190ns 
-OBJECTS SUMMARY:
 
-book1 == book1Clone: false
-book1 == book1Copy: false
-book1.getTitle() == book1Clone.getTitle(): false
-book1.getTitle() == book1Copy.getTitle(): false
-book2 == book2Clone: false
-Title: Java book 1, theme: programming
-Title: Java book 2, theme: programming
-Title: Python book 1, theme: programming
-Title: Python book 2, theme: programming
 -----------------------------------------------------------------------------------------------
-Abstract Factory design pattern tests
 
-Apple Picker picks Apple in September
-Orange Picker picks Orange in December
+Log time: 2018-03-31 01:06:41
+.............................
+ADAPTER
+
+getName() method called
+New Super Library
+
 -----------------------------------------------------------------------------------------------
-Dependency Injection design pattern tests
+
+Log time: 2018-03-31 01:02:44
+.............................
+FACTORY METHOD
+
+Pizza1: Hawaiian Pizza
+Pizza2: Deluxe Pizza
+
+-----------------------------------------------------------------------------------------------
+
+Log time: 2018-03-31 00:54:22
+.............................
+DEPENDENCY INJECTION
 This design pattern is not in GOF book
 
 Session's name: SuperSession
 New session's name: NewSuperSession
------------------------------------------------------------------------------------------------
-Factory method design pattern tests
 
-Pizza1: Hawaiian Pizza
-Pizza2: Deluxe Pizza
 -----------------------------------------------------------------------------------------------
-Adapter design pattern tests
 
-getName() method called
-New Super Library
+Log time: 2018-03-31 00:50:51
+.............................
+ABSTRACT FACTORY
+Apple Picker picks Apple in September
+Orange Picker picks Orange in December
+
 -----------------------------------------------------------------------------------------------
+
+Log time: 2018-03-31 00:44:25
+.............................
+PROTOTYPE
+Copy vs clone timing and correctness checking
+TIME SUMMARY: 
+Clone time: 12205ns 
+Copy time: 23185ns 
+
+OBJECTS SUMMARY:
+book == bookClone: false
+book == bookCopy: false
+
+book.getTitle() == bookClone.getTitle(): false
+book.getTitle() == bookCopy.getTitle(): false
+
+Book title: Java book 1, book theme: programming
+Clone title: Java book 2, clone theme: programming
+Copy title: Java book 1, copy theme: programming
+
+-----------------------------------------------------------------------------------------------
+
+Log time: 2018-03-31 00:24:09
+.............................
+STRATEGY
+Counting taxes in different countries using common interface: "Tax"
+Tax in Poland: 23.0
+Tax in France: 20.0
+Tax in Germany: 30.0
+Tax in United Kingdom: 20.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

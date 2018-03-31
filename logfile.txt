@@ -1,6 +1,21 @@
 
 -----------------------------------------------------------------------------------------------
 
+Log time: 2018-03-31 14:39:28
+.............................
+BUILDER
+
+Meal 0:
+Main: Chicken with potatoes
+Drink: Cola
+Dessert: Apple pie
+Meal 1:
+Main: Chicken with potatoes
+Drink: Beer
+Dessert: Apple pie
+
+-----------------------------------------------------------------------------------------------
+
 Log time: 2018-03-31 01:06:41
 .............................
 ADAPTER
@@ -66,19 +81,3 @@ Tax in Poland: 23.0
 Tax in France: 20.0
 Tax in Germany: 30.0
 Tax in United Kingdom: 20.0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

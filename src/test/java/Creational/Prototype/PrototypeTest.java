@@ -41,7 +41,7 @@ public class PrototypeTest {
     }
 
 
-    private void testCloneCorrectness() {
+    private void testCorrectness() {
 
         bookClone.setTitle("Java book 2");
 
@@ -111,7 +111,7 @@ public class PrototypeTest {
     @Test
     public void test() throws CloneNotSupportedException {
         testTiming();
-        testCloneCorrectness();
+        testCorrectness();
     }
 
 }

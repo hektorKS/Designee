@@ -40,7 +40,6 @@ public class AdapterTest {
     public void test(){
         Client client = new Client(log);
         client.doFancyThingsWithSuperLibrary();
-
     }
 
 }

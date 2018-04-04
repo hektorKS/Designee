@@ -1,6 +1,40 @@
 
 -----------------------------------------------------------------------------------------------
 
+Log time: 2018-04-05 00:49:13
+.............................
+OBSERVER
+
+Student inf10001 was notified
+News only for Students!
+
+Student inf10000 was notified
+News only for Students!
+
+Teacher was notified
+Important news for all!
+
+Student inf10001 was notified
+Important news for all!
+
+Student inf10000 was notified
+Important news for all!
+
+
+-----------------------------------------------------------------------------------------------
+
+Log time: 2018-04-04 23:32:42
+.............................
+FACADE
+
+Registration Successful
+MyLogin
+Cart content
+Products list...
+Product with ID 1000
+
+-----------------------------------------------------------------------------------------------
+
 Log time: 2018-03-31 14:39:28
 .............................
 BUILDER
@@ -81,3 +115,7 @@ Tax in Poland: 23.0
 Tax in France: 20.0
 Tax in Germany: 30.0
 Tax in United Kingdom: 20.0
+
+
+
+

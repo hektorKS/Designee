@@ -18,3 +18,4 @@ public class News extends Observable {
         notifyObservers(this.news.getLast());
     }
 }
+	

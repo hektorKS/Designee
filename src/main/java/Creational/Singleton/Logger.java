@@ -8,11 +8,11 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 /**
- * Singleton design pattern (called anti-pattern)
+ * SingletonTest design pattern (called anti-pattern)
  * The best way to implement singleton is by using enum.
  * It's worth to remember that when we serialize an enum, field variables are not getting serialized.
  * ---------------------------------------------------------------------------------------------------------------------
- * Logging is a specific example of an "acceptable" Singleton because it doesn't affect the execution of your code.
+ * Logging is a specific example of an "acceptable" SingletonTest because it doesn't affect the execution of your code.
  * Disable logging, code execution remains the same. Enable it, same same.
  * "The information here flows one way: From your application into the logger. Even though loggers are global state,
  * since no information flows from loggers into your application, loggers are acceptable."
@@ -44,9 +44,7 @@ public enum Logger {
     }
 
     private String readContent() throws IOException {
-        String result = new String(Files.readAllBytes(Paths.get("logfile.txt")));
-
-        return result;
+        return new String(Files.readAllBytes(Paths.get("logfile.txt")));
     }
 
 

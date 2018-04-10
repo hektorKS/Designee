@@ -42,7 +42,6 @@ public class ObserverTest{
 
         news.updateNews("Important news for all!");
 
-
     }
 
 }

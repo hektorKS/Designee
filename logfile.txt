@@ -1,6 +1,29 @@
 
 -----------------------------------------------------------------------------------------------
 
+Log time: 2018-04-10 20:49:34
+.............................
+VISITOR
+
+Input data: Banana, Apple, Apple, Orange, Banana, Banana, Banana, Apple, Apple
+
+Sorted fruits: 
+Apples: [Apple, Apple, Apple, Apple]
+Oranges: [Orange]
+Bananas: [Banana, Banana, Banana, Banana]
+
+Banana price: 47.228074509845776
+Apple price: 11.665902633486786
+Apple price: 8.237925910746041
+Orange price: 50.23415250947183
+Banana price: 78.79609929134938
+Banana price: 7.717811644105215
+Banana price: 88.87284970323667
+Apple price: 8.857122006808021
+Apple price: 2.589794240430092
+
+-----------------------------------------------------------------------------------------------
+
 Log time: 2018-04-05 00:49:13
 .............................
 OBSERVER
@@ -115,6 +138,11 @@ Tax in Poland: 23.0
 Tax in France: 20.0
 Tax in Germany: 30.0
 Tax in United Kingdom: 20.0
+
+
+
+
+
 
 
 

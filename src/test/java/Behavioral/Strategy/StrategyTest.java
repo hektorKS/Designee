@@ -31,10 +31,8 @@ public class StrategyTest {
 
     @After
     public void tearDown() throws Exception {
-
         Logger.INSTANCE.addToLog(log.toString());
         Logger.INSTANCE.saveLog();
-
     }
 
     @Test

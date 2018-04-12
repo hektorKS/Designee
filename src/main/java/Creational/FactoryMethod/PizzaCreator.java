@@ -2,16 +2,13 @@ package main.java.Creational.FactoryMethod;
 
 public class PizzaCreator implements Creator {
 
-//    This can be also implemented in different way switch just makes it bit easier.
     @Override
-    public Pizza create(String type) throws NoPizzaException {
-        switch (type){
-            case "Hawaiian":
-                return new HawaiianPizza();
-            case "Deluxe":
-                return new DeluxePizza();
-            default:
-                throw new NoPizzaException("Nie ma takiej pizzy!");
+    public Pizza create(String type) throws PizzaCreationException {
+        try{
+            return (Pizza) Class.forName("main.java.Creational.FactoryMethod." + type + "Pizza").newInstance();
+        } catch (Exception e) {
+            throw new PizzaCreationException("Exception during pizza creation!");
         }
     }
+
 }

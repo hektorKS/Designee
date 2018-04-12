@@ -1,7 +1,7 @@
 package test.java.Creational.FactoryMethod;
 
 import main.java.Creational.FactoryMethod.Creator;
-import main.java.Creational.FactoryMethod.NoPizzaException;
+import main.java.Creational.FactoryMethod.PizzaCreationException;
 import main.java.Creational.FactoryMethod.Pizza;
 import main.java.Creational.FactoryMethod.PizzaCreator;
 import main.java.Creational.Singleton.Logger;
@@ -49,7 +49,7 @@ public class FactoryMethodTest {
         Logger.INSTANCE.saveLog();
     }
 
-    private void testException() throws NoPizzaException {
+    private void testException() throws PizzaCreationException {
 
         Creator creator = new PizzaCreator();
         Pizza pizza3 = creator.create("Margerita");
@@ -60,8 +60,8 @@ public class FactoryMethodTest {
 
     }
 
-    @Test(expected = NoPizzaException.class)
-    public void test() throws NoPizzaException {
+    @Test(expected = PizzaCreationException.class)
+    public void test() throws PizzaCreationException {
 
 //      We create creator and use FactoryMethod -> create() to ask him to create certain product -> PIZZA.
 //      We must of course tell him what type of product we want.

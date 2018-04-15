@@ -1,8 +1,9 @@
-package main.java.Behavioral.Visitor;
+package main.java.Behavioral.Visitor.FruitsExample;
 
 public class Orange extends Fruit {
+
     @Override
-    public void Accept(IFruitVisitor visitor) {
+    public void accept(IFruitVisitor visitor) {
         visitor.Visit(this);
     }
 

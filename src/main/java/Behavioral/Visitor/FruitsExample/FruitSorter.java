@@ -1,4 +1,4 @@
-package main.java.Behavioral.Visitor;
+package main.java.Behavioral.Visitor.FruitsExample;
 
 import java.util.ArrayList;
 import java.util.List;

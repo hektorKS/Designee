@@ -1,4 +1,4 @@
-package main.java.Behavioral.Visitor;
+package main.java.Behavioral.Visitor.FruitsExample;
 
 import java.util.Random;
 
@@ -12,7 +12,7 @@ public abstract class Fruit {
         this.weight =  30 * random.nextDouble();
     }
 
-    public abstract void Accept(IFruitVisitor visitor);
+    public abstract void accept(IFruitVisitor visitor);
 
     public double getPrice() {
         return price;

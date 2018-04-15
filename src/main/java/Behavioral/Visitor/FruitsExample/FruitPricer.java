@@ -1,4 +1,4 @@
-package main.java.Behavioral.Visitor;
+package main.java.Behavioral.Visitor.FruitsExample;
 
 public class FruitPricer implements IFruitVisitor {
     @Override

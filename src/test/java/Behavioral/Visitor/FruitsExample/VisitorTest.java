@@ -1,14 +1,10 @@
-package test.java.Behavioral.Visitor;
+package test.java.Behavioral.Visitor.FruitsExample;
 
-import main.java.Behavioral.Visitor.*;
+import main.java.Behavioral.Visitor.FruitsExample.*;
 import main.java.Creational.Singleton.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
-
-import static org.junit.Assert.*;
 
 /**
  *  Each time you want to add an operation you must modify the interface to every single class of the hierarchy.
@@ -56,7 +52,7 @@ public class VisitorTest {
 
         FruitSorter fruitSorter = new FruitSorter();
         for(Fruit fruit : fruits){
-            fruit.Accept(fruitSorter);
+            fruit.accept(fruitSorter);
         }
         log.append("Sorted fruits: \n");
         log.append("Apples: ");
@@ -67,10 +63,10 @@ public class VisitorTest {
         log.append(fruitSorter.getBananas());
         log.append("\n\n");
 
-        //New functionality
+        //New functionality - counting prices
         FruitPricer fruitPricer =  new FruitPricer();
         for(Fruit fruit : fruits){
-            fruit.Accept(fruitPricer);
+            fruit.accept(fruitPricer);
         }
 
         for(Fruit fruit : fruits){

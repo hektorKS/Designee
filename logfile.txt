@@ -1,6 +1,43 @@
 
 -----------------------------------------------------------------------------------------------
 
+Log time: 2018-04-15 17:43:52
+.............................
+COMMAND
+
+Student's final bill amount: 76.5
+
+-----------------------------------------------------------------------------------------------
+
+Log time: 2018-04-15 16:45:28
+.............................
+VISITOR
+
+Bonus for boss: 10000.0
+Bonus for programmer: 12000.0
+Bonus for project lead: 1000.0
+
+-----------------------------------------------------------------------------------------------
+
+Log time: 2018-04-15 16:26:21
+.............................
+TEMPLATE METHOD
+
+Cutting bun.
+Adding meat.
+Adding vegetables
+Adding condiments.
+Wrapping sandwich.
+
+Cutting bun.
+No meat.
+Adding vegetables
+Adding veggie condiments.
+Wrapping sandwich.
+
+
+-----------------------------------------------------------------------------------------------
+
 Log time: 2018-04-12 21:35:21
 .............................
 FACTORY METHOD
@@ -147,6 +184,13 @@ Tax in Poland: 23.0
 Tax in France: 20.0
 Tax in Germany: 30.0
 Tax in United Kingdom: 20.0
+
+
+
+
+
+
+
 
 
 
